@@ -1,0 +1,681 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mart1\\Documents\\Cours ETS\\Cours ETS\\Session 7\\LOG430\\Projet\\CanDroneX\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|c:\\users\\mart1\\documents\\cours ets\\cours ets\\session 7\\log430\\projet\\candronex\\docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|c:\\users\\mart1\\documents\\cours ets\\cours ets\\session 7\\log430\\projet\\candronex\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FC15CA3-EBA1-4BEB-9294-6A6410A81BC4}|CanDroneX.Host\\CanDroneX.Host.csproj|c:\\users\\mart1\\documents\\cours ets\\cours ets\\session 7\\log430\\projet\\candronex\\candronex.host\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6FC15CA3-EBA1-4BEB-9294-6A6410A81BC4}|CanDroneX.Host\\CanDroneX.Host.csproj|solutionrelative:candronex.host\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|c:\\users\\mart1\\documents\\cours ets\\cours ets\\session 7\\log430\\projet\\candronex\\docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|c:\\users\\mart1\\documents\\cours ets\\cours ets\\session 7\\log430\\projet\\candronex\\.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|c:\\users\\mart1\\documents\\cours ets\\cours ets\\session 7\\log430\\projet\\candronex\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BC6F8FD-B6BD-432B-8423-8BDB056CBA1F}|Drones.Infrastructure\\Drones.Infrastructure.csproj|c:\\users\\mart1\\documents\\cours ets\\cours ets\\session 7\\log430\\projet\\candronex\\drones.infrastructure\\dronedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BC6F8FD-B6BD-432B-8423-8BDB056CBA1F}|Drones.Infrastructure\\Drones.Infrastructure.csproj|solutionrelative:drones.infrastructure\\dronedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BC6F8FD-B6BD-432B-8423-8BDB056CBA1F}|Drones.Infrastructure\\Drones.Infrastructure.csproj|c:\\users\\mart1\\documents\\cours ets\\cours ets\\session 7\\log430\\projet\\candronex\\drones.infrastructure\\dronerepositorysql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BC6F8FD-B6BD-432B-8423-8BDB056CBA1F}|Drones.Infrastructure\\Drones.Infrastructure.csproj|solutionrelative:drones.infrastructure\\dronerepositorysql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BC6F8FD-B6BD-432B-8423-8BDB056CBA1F}|Drones.Infrastructure\\Drones.Infrastructure.csproj|c:\\users\\mart1\\documents\\cours ets\\cours ets\\session 7\\log430\\projet\\candronex\\drones.infrastructure\\dronemoduleextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BC6F8FD-B6BD-432B-8423-8BDB056CBA1F}|Drones.Infrastructure\\Drones.Infrastructure.csproj|solutionrelative:drones.infrastructure\\dronemoduleextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89C464BB-4B9F-4810-8F60-78F0EC2FC065}|Drones.Domain\\Drones.Domain.csproj|c:\\users\\mart1\\documents\\cours ets\\cours ets\\session 7\\log430\\projet\\candronex\\drones.domain\\drone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89C464BB-4B9F-4810-8F60-78F0EC2FC065}|Drones.Domain\\Drones.Domain.csproj|solutionrelative:drones.domain\\drone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BC6F8FD-B6BD-432B-8423-8BDB056CBA1F}|Drones.Infrastructure\\Drones.Infrastructure.csproj|c:\\users\\mart1\\documents\\cours ets\\cours ets\\session 7\\log430\\projet\\candronex\\drones.infrastructure\\drones.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0BC6F8FD-B6BD-432B-8423-8BDB056CBA1F}|Drones.Infrastructure\\Drones.Infrastructure.csproj|solutionrelative:drones.infrastructure\\drones.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FC15CA3-EBA1-4BEB-9294-6A6410A81BC4}|CanDroneX.Host\\CanDroneX.Host.csproj|c:\\users\\mart1\\documents\\cours ets\\cours ets\\session 7\\log430\\projet\\candronex\\candronex.host\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6FC15CA3-EBA1-4BEB-9294-6A6410A81BC4}|CanDroneX.Host\\CanDroneX.Host.csproj|solutionrelative:candronex.host\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FC15CA3-EBA1-4BEB-9294-6A6410A81BC4}|CanDroneX.Host\\CanDroneX.Host.csproj|c:\\users\\mart1\\documents\\cours ets\\cours ets\\session 7\\log430\\projet\\candronex\\candronex.host\\candronex.host.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6FC15CA3-EBA1-4BEB-9294-6A6410A81BC4}|CanDroneX.Host\\CanDroneX.Host.csproj|solutionrelative:candronex.host\\candronex.host.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FC15CA3-EBA1-4BEB-9294-6A6410A81BC4}|CanDroneX.Host\\CanDroneX.Host.csproj|c:\\users\\mart1\\documents\\cours ets\\cours ets\\session 7\\log430\\projet\\candronex\\candronex.host\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FC15CA3-EBA1-4BEB-9294-6A6410A81BC4}|CanDroneX.Host\\CanDroneX.Host.csproj|solutionrelative:candronex.host\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89C464BB-4B9F-4810-8F60-78F0EC2FC065}|Drones.Domain\\Drones.Domain.csproj|c:\\users\\mart1\\documents\\cours ets\\cours ets\\session 7\\log430\\projet\\candronex\\drones.domain\\dronedomainexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89C464BB-4B9F-4810-8F60-78F0EC2FC065}|Drones.Domain\\Drones.Domain.csproj|solutionrelative:drones.domain\\dronedomainexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56F629FD-8C48-4FE8-B639-7FB67FA0ED76}|Drones.Api\\Drones.Api.csproj|c:\\users\\mart1\\documents\\cours ets\\cours ets\\session 7\\log430\\projet\\candronex\\drones.api\\dronecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56F629FD-8C48-4FE8-B639-7FB67FA0ED76}|Drones.Api\\Drones.Api.csproj|solutionrelative:drones.api\\dronecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56F629FD-8C48-4FE8-B639-7FB67FA0ED76}|Drones.Api\\Drones.Api.csproj|c:\\users\\mart1\\documents\\cours ets\\cours ets\\session 7\\log430\\projet\\candronex\\drones.api\\enregistrerdronerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56F629FD-8C48-4FE8-B639-7FB67FA0ED76}|Drones.Api\\Drones.Api.csproj|solutionrelative:drones.api\\enregistrerdronerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mart1\\AppData\\Local\\Temp\\c3671b0a-95a9-497b-8f33-5c24bd2a5995_candronex-drones-tests.zip.995\\Drones.Domain.Tests\\DroneTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B049E5A6-9B84-4B6E-8398-6CCE46E4B893}|Drones.Domain.Tests\\Drones.Domain.Tests.csproj|c:\\users\\mart1\\documents\\cours ets\\cours ets\\session 7\\log430\\projet\\candronex\\drones.domain.tests\\drones.domain.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B049E5A6-9B84-4B6E-8398-6CCE46E4B893}|Drones.Domain.Tests\\Drones.Domain.Tests.csproj|solutionrelative:drones.domain.tests\\drones.domain.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89C464BB-4B9F-4810-8F60-78F0EC2FC065}|Drones.Domain\\Drones.Domain.csproj|c:\\users\\mart1\\documents\\cours ets\\cours ets\\session 7\\log430\\projet\\candronex\\drones.domain\\drones.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{89C464BB-4B9F-4810-8F60-78F0EC2FC065}|Drones.Domain\\Drones.Domain.csproj|solutionrelative:drones.domain\\drones.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mart1\\AppData\\Local\\Temp\\0f88db5a-46ca-4da4-a9de-a9dd2eff75b5_candronex-drones-tests.zip.5b5\\Drones.Application.Tests\\DroneUseCaseTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mart1\\AppData\\Local\\Temp\\6a40ab35-bb3a-49bc-bdc1-af03b8bddc70_candronex-drones-tests.zip.c70\\Drones.Application.Tests\\FakeDroneRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mart1\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.22.1\\build\\Container.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mart1\\AppData\\Local\\Temp\\2896a7fb-1768-4b3f-80c6-15c538b27c29_candronex-drones-module.zip.c29\\Drones.Domain\\DroneId.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mart1\\AppData\\Local\\Temp\\76964976-4336-4a05-8417-892bbfd9e44a_candronex-drones-module.zip.44a\\Drones.Domain\\DroneDomainException.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mart1\\AppData\\Local\\Temp\\b51bfe41-9e76-4d22-a5da-7bdd22819bdc_candronex-drones-module.zip.bdc\\Drones.Infrastructure\\DroneRepositoryEfCore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mart1\\AppData\\Local\\Temp\\f813ee27-9aa9-4b6a-a71d-1d1901e839ec_candronex-drones-module.zip.9ec\\Drones.Infrastructure\\DroneController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mart1\\AppData\\Local\\Temp\\637998dd-25b0-42d2-badb-8d6efa7b9eb7_candronex-drones-module.zip.eb7\\Drones.Infrastructure\\DroneDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mart1\\AppData\\Local\\Temp\\8028aba8-fd7e-4c33-8df9-53272c73dd4a_candronex-drones-module.zip.d4a\\Drones.Infrastructure\\DroneModuleExtensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.318\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56F629FD-8C48-4FE8-B639-7FB67FA0ED76}|Drones.Api\\Drones.Api.csproj|c:\\users\\mart1\\documents\\cours ets\\cours ets\\session 7\\log430\\projet\\candronex\\drones.api\\dronecreatedresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56F629FD-8C48-4FE8-B639-7FB67FA0ED76}|Drones.Api\\Drones.Api.csproj|solutionrelative:drones.api\\dronecreatedresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A098877F-4C82-42A4-8DC4-297C272AE715}|Drones.Application\\Drones.Application.csproj|c:\\users\\mart1\\documents\\cours ets\\cours ets\\session 7\\log430\\projet\\candronex\\drones.application\\droneusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A098877F-4C82-42A4-8DC4-297C272AE715}|Drones.Application\\Drones.Application.csproj|solutionrelative:drones.application\\droneusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A098877F-4C82-42A4-8DC4-297C272AE715}|Drones.Application\\Drones.Application.csproj|c:\\users\\mart1\\documents\\cours ets\\cours ets\\session 7\\log430\\projet\\candronex\\drones.application\\idroneport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A098877F-4C82-42A4-8DC4-297C272AE715}|Drones.Application\\Drones.Application.csproj|solutionrelative:drones.application\\idroneport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4C048C0-634E-4194-89B4-AFBA3098C3D6}|Drones.Contracts\\Drones.Contracts.csproj|c:\\users\\mart1\\documents\\cours ets\\cours ets\\session 7\\log430\\projet\\candronex\\drones.contracts\\droneinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4C048C0-634E-4194-89B4-AFBA3098C3D6}|Drones.Contracts\\Drones.Contracts.csproj|solutionrelative:drones.contracts\\droneinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4C048C0-634E-4194-89B4-AFBA3098C3D6}|Drones.Contracts\\Drones.Contracts.csproj|c:\\users\\mart1\\documents\\cours ets\\cours ets\\session 7\\log430\\projet\\candronex\\drones.contracts\\idronesapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4C048C0-634E-4194-89B4-AFBA3098C3D6}|Drones.Contracts\\Drones.Contracts.csproj|solutionrelative:drones.contracts\\idronesapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A098877F-4C82-42A4-8DC4-297C272AE715}|Drones.Application\\Drones.Application.csproj|c:\\users\\mart1\\documents\\cours ets\\cours ets\\session 7\\log430\\projet\\candronex\\drones.application\\idronerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A098877F-4C82-42A4-8DC4-297C272AE715}|Drones.Application\\Drones.Application.csproj|solutionrelative:drones.application\\idronerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A098877F-4C82-42A4-8DC4-297C272AE715}|Drones.Application\\Drones.Application.csproj|c:\\users\\mart1\\documents\\cours ets\\cours ets\\session 7\\log430\\projet\\candronex\\drones.application\\enregistrerdronecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A098877F-4C82-42A4-8DC4-297C272AE715}|Drones.Application\\Drones.Application.csproj|solutionrelative:drones.application\\enregistrerdronecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89C464BB-4B9F-4810-8F60-78F0EC2FC065}|Drones.Domain\\Drones.Domain.csproj|c:\\users\\mart1\\documents\\cours ets\\cours ets\\session 7\\log430\\projet\\candronex\\drones.domain\\droneid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89C464BB-4B9F-4810-8F60-78F0EC2FC065}|Drones.Domain\\Drones.Domain.csproj|solutionrelative:drones.domain\\droneid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B049E5A6-9B84-4B6E-8398-6CCE46E4B893}|Drones.Domain.Tests\\Drones.Domain.Tests.csproj|c:\\users\\mart1\\documents\\cours ets\\cours ets\\session 7\\log430\\projet\\candronex\\drones.domain.tests\\dronetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B049E5A6-9B84-4B6E-8398-6CCE46E4B893}|Drones.Domain.Tests\\Drones.Domain.Tests.csproj|solutionrelative:drones.domain.tests\\dronetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0615B748-AA96-4BFF-AC6A-2AE8C6539406}|Drones.Application.Tests\\Drones.Application.Tests.csproj|c:\\users\\mart1\\documents\\cours ets\\cours ets\\session 7\\log430\\projet\\candronex\\drones.application.tests\\droneusecasetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0615B748-AA96-4BFF-AC6A-2AE8C6539406}|Drones.Application.Tests\\Drones.Application.Tests.csproj|solutionrelative:drones.application.tests\\droneusecasetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0615B748-AA96-4BFF-AC6A-2AE8C6539406}|Drones.Application.Tests\\Drones.Application.Tests.csproj|c:\\users\\mart1\\documents\\cours ets\\cours ets\\session 7\\log430\\projet\\candronex\\drones.application.tests\\fakedronerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0615B748-AA96-4BFF-AC6A-2AE8C6539406}|Drones.Application.Tests\\Drones.Application.Tests.csproj|solutionrelative:drones.application.tests\\fakedronerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "docker-compose.override.yml",
+              "DocumentMoniker": "C:\\Users\\mart1\\Documents\\Cours ETS\\Cours ETS\\Session 7\\LOG430\\Projet\\CanDroneX\\docker-compose.override.yml",
+              "RelativeDocumentMoniker": "docker-compose.override.yml",
+              "ToolTip": "C:\\Users\\mart1\\Documents\\Cours ETS\\Cours ETS\\Session 7\\LOG430\\Projet\\CanDroneX\\docker-compose.override.yml",
+              "RelativeToolTip": "docker-compose.override.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2026-09-30T23:06:57.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\mart1\\Documents\\Cours ETS\\Cours ETS\\Session 7\\LOG430\\Projet\\CanDroneX\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\Users\\mart1\\Documents\\Cours ETS\\Cours ETS\\Session 7\\LOG430\\Projet\\CanDroneX\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2026-09-30T23:02:20.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": ".dockerignore",
+              "DocumentMoniker": "C:\\Users\\mart1\\Documents\\Cours ETS\\Cours ETS\\Session 7\\LOG430\\Projet\\CanDroneX\\.dockerignore",
+              "RelativeDocumentMoniker": ".dockerignore",
+              "ToolTip": "C:\\Users\\mart1\\Documents\\Cours ETS\\Cours ETS\\Session 7\\LOG430\\Projet\\CanDroneX\\.dockerignore",
+              "RelativeToolTip": ".dockerignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-09-30T23:02:19.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "docker-compose",
+              "DocumentMoniker": "C:\\Users\\mart1\\Documents\\Cours ETS\\Cours ETS\\Session 7\\LOG430\\Projet\\CanDroneX\\docker-compose.dcproj",
+              "RelativeDocumentMoniker": "docker-compose.dcproj",
+              "ToolTip": "C:\\Users\\mart1\\Documents\\Cours ETS\\Cours ETS\\Session 7\\LOG430\\Projet\\CanDroneX\\docker-compose.dcproj",
+              "RelativeToolTip": "docker-compose.dcproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-09-30T23:02:18.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DroneRepositorySql.cs",
+              "DocumentMoniker": "C:\\Users\\mart1\\Documents\\Cours ETS\\Cours ETS\\Session 7\\LOG430\\Projet\\CanDroneX\\Drones.Infrastructure\\DroneRepositorySql.cs",
+              "RelativeDocumentMoniker": "Drones.Infrastructure\\DroneRepositorySql.cs",
+              "ToolTip": "C:\\Users\\mart1\\Documents\\Cours ETS\\Cours ETS\\Session 7\\LOG430\\Projet\\CanDroneX\\Drones.Infrastructure\\DroneRepositorySql.cs",
+              "RelativeToolTip": "Drones.Infrastructure\\DroneRepositorySql.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAA5wAsAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T22:57:28.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DroneDAO.cs",
+              "DocumentMoniker": "C:\\Users\\mart1\\Documents\\Cours ETS\\Cours ETS\\Session 7\\LOG430\\Projet\\CanDroneX\\Drones.Infrastructure\\DroneDAO.cs",
+              "RelativeDocumentMoniker": "Drones.Infrastructure\\DroneDAO.cs",
+              "ToolTip": "C:\\Users\\mart1\\Documents\\Cours ETS\\Cours ETS\\Session 7\\LOG430\\Projet\\CanDroneX\\Drones.Infrastructure\\DroneDAO.cs",
+              "RelativeToolTip": "Drones.Infrastructure\\DroneDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T22:56:42.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\mart1\\Documents\\Cours ETS\\Cours ETS\\Session 7\\LOG430\\Projet\\CanDroneX\\CanDroneX.Host\\Dockerfile",
+              "RelativeDocumentMoniker": "CanDroneX.Host\\Dockerfile",
+              "ToolTip": "C:\\Users\\mart1\\Documents\\Cours ETS\\Cours ETS\\Session 7\\LOG430\\Projet\\CanDroneX\\CanDroneX.Host\\Dockerfile",
+              "RelativeToolTip": "CanDroneX.Host\\Dockerfile",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-09-29T22:50:26.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\mart1\\Documents\\Cours ETS\\Cours ETS\\Session 7\\LOG430\\Projet\\CanDroneX\\launchSettings.json",
+              "RelativeDocumentMoniker": "launchSettings.json",
+              "ToolTip": "C:\\Users\\mart1\\Documents\\Cours ETS\\Cours ETS\\Session 7\\LOG430\\Projet\\CanDroneX\\launchSettings.json",
+              "RelativeToolTip": "launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-30T23:02:24.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Drones.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\mart1\\Documents\\Cours ETS\\Cours ETS\\Session 7\\LOG430\\Projet\\CanDroneX\\Drones.Infrastructure\\Drones.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "Drones.Infrastructure\\Drones.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\mart1\\Documents\\Cours ETS\\Cours ETS\\Session 7\\LOG430\\Projet\\CanDroneX\\Drones.Infrastructure\\Drones.Infrastructure.csproj",
+              "RelativeToolTip": "Drones.Infrastructure\\Drones.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-22T00:21:31.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DroneModuleExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\mart1\\Documents\\Cours ETS\\Cours ETS\\Session 7\\LOG430\\Projet\\CanDroneX\\Drones.Infrastructure\\DroneModuleExtensions.cs",
+              "RelativeDocumentMoniker": "Drones.Infrastructure\\DroneModuleExtensions.cs",
+              "ToolTip": "C:\\Users\\mart1\\Documents\\Cours ETS\\Cours ETS\\Session 7\\LOG430\\Projet\\CanDroneX\\Drones.Infrastructure\\DroneModuleExtensions.cs",
+              "RelativeToolTip": "Drones.Infrastructure\\DroneModuleExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T01:08:10.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Drone.cs",
+              "DocumentMoniker": "C:\\Users\\mart1\\Documents\\Cours ETS\\Cours ETS\\Session 7\\LOG430\\Projet\\CanDroneX\\Drones.Domain\\Drone.cs",
+              "RelativeDocumentMoniker": "Drones.Domain\\Drone.cs",
+              "ToolTip": "C:\\Users\\mart1\\Documents\\Cours ETS\\Cours ETS\\Session 7\\LOG430\\Projet\\CanDroneX\\Drones.Domain\\Drone.cs",
+              "RelativeToolTip": "Drones.Domain\\Drone.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwA0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T01:05:04.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\mart1\\Documents\\Cours ETS\\Cours ETS\\Session 7\\LOG430\\Projet\\CanDroneX\\CanDroneX.Host\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "CanDroneX.Host\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\mart1\\Documents\\Cours ETS\\Cours ETS\\Session 7\\LOG430\\Projet\\CanDroneX\\CanDroneX.Host\\Properties\\launchSettings.json",
+              "RelativeToolTip": "CanDroneX.Host\\Properties\\launchSettings.json",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowDIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-30T22:54:30.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CanDroneX.Host.csproj",
+              "DocumentMoniker": "C:\\Users\\mart1\\Documents\\Cours ETS\\Cours ETS\\Session 7\\LOG430\\Projet\\CanDroneX\\CanDroneX.Host\\CanDroneX.Host.csproj",
+              "RelativeDocumentMoniker": "CanDroneX.Host\\CanDroneX.Host.csproj",
+              "ToolTip": "C:\\Users\\mart1\\Documents\\Cours ETS\\Cours ETS\\Session 7\\LOG430\\Projet\\CanDroneX\\CanDroneX.Host\\CanDroneX.Host.csproj",
+              "RelativeToolTip": "CanDroneX.Host\\CanDroneX.Host.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-22T00:59:21.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mart1\\Documents\\Cours ETS\\Cours ETS\\Session 7\\LOG430\\Projet\\CanDroneX\\CanDroneX.Host\\Program.cs",
+              "RelativeDocumentMoniker": "CanDroneX.Host\\Program.cs",
+              "ToolTip": "C:\\Users\\mart1\\Documents\\Cours ETS\\Cours ETS\\Session 7\\LOG430\\Projet\\CanDroneX\\CanDroneX.Host\\Program.cs",
+              "RelativeToolTip": "CanDroneX.Host\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T01:09:48.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DroneController.cs",
+              "DocumentMoniker": "C:\\Users\\mart1\\Documents\\Cours ETS\\Cours ETS\\Session 7\\LOG430\\Projet\\CanDroneX\\Drones.Api\\DroneController.cs",
+              "RelativeDocumentMoniker": "Drones.Api\\DroneController.cs",
+              "ToolTip": "C:\\Users\\mart1\\Documents\\Cours ETS\\Cours ETS\\Session 7\\LOG430\\Projet\\CanDroneX\\Drones.Api\\DroneController.cs",
+              "RelativeToolTip": "Drones.Api\\DroneController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T21:37:28.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DroneDomainException.cs",
+              "DocumentMoniker": "C:\\Users\\mart1\\Documents\\Cours ETS\\Cours ETS\\Session 7\\LOG430\\Projet\\CanDroneX\\Drones.Domain\\DroneDomainException.cs",
+              "RelativeDocumentMoniker": "Drones.Domain\\DroneDomainException.cs",
+              "ToolTip": "C:\\Users\\mart1\\Documents\\Cours ETS\\Cours ETS\\Session 7\\LOG430\\Projet\\CanDroneX\\Drones.Domain\\DroneDomainException.cs",
+              "RelativeToolTip": "Drones.Domain\\DroneDomainException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T01:05:20.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EnregistrerDroneRequest.cs",
+              "DocumentMoniker": "C:\\Users\\mart1\\Documents\\Cours ETS\\Cours ETS\\Session 7\\LOG430\\Projet\\CanDroneX\\Drones.Api\\EnregistrerDroneRequest.cs",
+              "RelativeDocumentMoniker": "Drones.Api\\EnregistrerDroneRequest.cs",
+              "ToolTip": "C:\\Users\\mart1\\Documents\\Cours ETS\\Cours ETS\\Session 7\\LOG430\\Projet\\CanDroneX\\Drones.Api\\EnregistrerDroneRequest.cs",
+              "RelativeToolTip": "Drones.Api\\EnregistrerDroneRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T00:20:30.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "DroneCreatedResponse.cs",
+              "DocumentMoniker": "C:\\Users\\mart1\\Documents\\Cours ETS\\Cours ETS\\Session 7\\LOG430\\Projet\\CanDroneX\\Drones.Api\\DroneCreatedResponse.cs",
+              "RelativeDocumentMoniker": "Drones.Api\\DroneCreatedResponse.cs",
+              "ToolTip": "C:\\Users\\mart1\\Documents\\Cours ETS\\Cours ETS\\Session 7\\LOG430\\Projet\\CanDroneX\\Drones.Api\\DroneCreatedResponse.cs",
+              "RelativeToolTip": "Drones.Api\\DroneCreatedResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T01:24:55.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "DroneUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\mart1\\Documents\\Cours ETS\\Cours ETS\\Session 7\\LOG430\\Projet\\CanDroneX\\Drones.Application\\DroneUseCase.cs",
+              "RelativeDocumentMoniker": "Drones.Application\\DroneUseCase.cs",
+              "ToolTip": "C:\\Users\\mart1\\Documents\\Cours ETS\\Cours ETS\\Session 7\\LOG430\\Projet\\CanDroneX\\Drones.Application\\DroneUseCase.cs",
+              "RelativeToolTip": "Drones.Application\\DroneUseCase.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T01:06:55.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IDronePort.cs",
+              "DocumentMoniker": "C:\\Users\\mart1\\Documents\\Cours ETS\\Cours ETS\\Session 7\\LOG430\\Projet\\CanDroneX\\Drones.Application\\IDronePort.cs",
+              "RelativeDocumentMoniker": "Drones.Application\\IDronePort.cs",
+              "ToolTip": "C:\\Users\\mart1\\Documents\\Cours ETS\\Cours ETS\\Session 7\\LOG430\\Projet\\CanDroneX\\Drones.Application\\IDronePort.cs",
+              "RelativeToolTip": "Drones.Application\\IDronePort.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T01:06:01.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "DroneInfo.cs",
+              "DocumentMoniker": "C:\\Users\\mart1\\Documents\\Cours ETS\\Cours ETS\\Session 7\\LOG430\\Projet\\CanDroneX\\Drones.Contracts\\DroneInfo.cs",
+              "RelativeDocumentMoniker": "Drones.Contracts\\DroneInfo.cs",
+              "ToolTip": "C:\\Users\\mart1\\Documents\\Cours ETS\\Cours ETS\\Session 7\\LOG430\\Projet\\CanDroneX\\Drones.Contracts\\DroneInfo.cs",
+              "RelativeToolTip": "Drones.Contracts\\DroneInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T21:02:18.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IDronesApi.cs",
+              "DocumentMoniker": "C:\\Users\\mart1\\Documents\\Cours ETS\\Cours ETS\\Session 7\\LOG430\\Projet\\CanDroneX\\Drones.Contracts\\IDronesApi.cs",
+              "RelativeDocumentMoniker": "Drones.Contracts\\IDronesApi.cs",
+              "ToolTip": "C:\\Users\\mart1\\Documents\\Cours ETS\\Cours ETS\\Session 7\\LOG430\\Projet\\CanDroneX\\Drones.Contracts\\IDronesApi.cs",
+              "RelativeToolTip": "Drones.Contracts\\IDronesApi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T21:01:41.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IDroneRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mart1\\Documents\\Cours ETS\\Cours ETS\\Session 7\\LOG430\\Projet\\CanDroneX\\Drones.Application\\IDroneRepository.cs",
+              "RelativeDocumentMoniker": "Drones.Application\\IDroneRepository.cs",
+              "ToolTip": "C:\\Users\\mart1\\Documents\\Cours ETS\\Cours ETS\\Session 7\\LOG430\\Projet\\CanDroneX\\Drones.Application\\IDroneRepository.cs",
+              "RelativeToolTip": "Drones.Application\\IDroneRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T00:20:17.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "EnregistrerDroneCommand.cs",
+              "DocumentMoniker": "C:\\Users\\mart1\\Documents\\Cours ETS\\Cours ETS\\Session 7\\LOG430\\Projet\\CanDroneX\\Drones.Application\\EnregistrerDroneCommand.cs",
+              "RelativeDocumentMoniker": "Drones.Application\\EnregistrerDroneCommand.cs",
+              "ToolTip": "C:\\Users\\mart1\\Documents\\Cours ETS\\Cours ETS\\Session 7\\LOG430\\Projet\\CanDroneX\\Drones.Application\\EnregistrerDroneCommand.cs",
+              "RelativeToolTip": "Drones.Application\\EnregistrerDroneCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T01:06:45.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "DroneId.cs",
+              "DocumentMoniker": "C:\\Users\\mart1\\Documents\\Cours ETS\\Cours ETS\\Session 7\\LOG430\\Projet\\CanDroneX\\Drones.Domain\\DroneId.cs",
+              "RelativeDocumentMoniker": "Drones.Domain\\DroneId.cs",
+              "ToolTip": "C:\\Users\\mart1\\Documents\\Cours ETS\\Cours ETS\\Session 7\\LOG430\\Projet\\CanDroneX\\Drones.Domain\\DroneId.cs",
+              "RelativeToolTip": "Drones.Domain\\DroneId.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T00:19:58.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "DroneTests.cs",
+              "DocumentMoniker": "C:\\Users\\mart1\\Documents\\Cours ETS\\Cours ETS\\Session 7\\LOG430\\Projet\\CanDroneX\\Drones.Domain.Tests\\DroneTests.cs",
+              "RelativeDocumentMoniker": "Drones.Domain.Tests\\DroneTests.cs",
+              "ToolTip": "C:\\Users\\mart1\\Documents\\Cours ETS\\Cours ETS\\Session 7\\LOG430\\Projet\\CanDroneX\\Drones.Domain.Tests\\DroneTests.cs",
+              "RelativeToolTip": "Drones.Domain.Tests\\DroneTests.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwCUAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T01:38:20.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "DroneUseCaseTests.cs",
+              "DocumentMoniker": "C:\\Users\\mart1\\Documents\\Cours ETS\\Cours ETS\\Session 7\\LOG430\\Projet\\CanDroneX\\Drones.Application.Tests\\DroneUseCaseTests.cs",
+              "RelativeDocumentMoniker": "Drones.Application.Tests\\DroneUseCaseTests.cs",
+              "ToolTip": "C:\\Users\\mart1\\Documents\\Cours ETS\\Cours ETS\\Session 7\\LOG430\\Projet\\CanDroneX\\Drones.Application.Tests\\DroneUseCaseTests.cs",
+              "RelativeToolTip": "Drones.Application.Tests\\DroneUseCaseTests.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwAUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T01:38:37.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "FakeDroneRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mart1\\Documents\\Cours ETS\\Cours ETS\\Session 7\\LOG430\\Projet\\CanDroneX\\Drones.Application.Tests\\FakeDroneRepository.cs",
+              "RelativeDocumentMoniker": "Drones.Application.Tests\\FakeDroneRepository.cs",
+              "ToolTip": "C:\\Users\\mart1\\Documents\\Cours ETS\\Cours ETS\\Session 7\\LOG430\\Projet\\CanDroneX\\Drones.Application.Tests\\FakeDroneRepository.cs",
+              "RelativeToolTip": "Drones.Application.Tests\\FakeDroneRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T01:39:32.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Drones.Domain.Tests.csproj",
+              "DocumentMoniker": "C:\\Users\\mart1\\Documents\\Cours ETS\\Cours ETS\\Session 7\\LOG430\\Projet\\CanDroneX\\Drones.Domain.Tests\\Drones.Domain.Tests.csproj",
+              "RelativeDocumentMoniker": "Drones.Domain.Tests\\Drones.Domain.Tests.csproj",
+              "ToolTip": "C:\\Users\\mart1\\Documents\\Cours ETS\\Cours ETS\\Session 7\\LOG430\\Projet\\CanDroneX\\Drones.Domain.Tests\\Drones.Domain.Tests.csproj",
+              "RelativeToolTip": "Drones.Domain.Tests\\Drones.Domain.Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-22T01:40:03.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DroneTests.cs",
+              "DocumentMoniker": "C:\\Users\\mart1\\AppData\\Local\\Temp\\c3671b0a-95a9-497b-8f33-5c24bd2a5995_candronex-drones-tests.zip.995\\Drones.Domain.Tests\\DroneTests.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\c3671b0a-95a9-497b-8f33-5c24bd2a5995_candronex-drones-tests.zip.995\\Drones.Domain.Tests\\DroneTests.cs",
+              "ToolTip": "C:\\Users\\mart1\\AppData\\Local\\Temp\\c3671b0a-95a9-497b-8f33-5c24bd2a5995_candronex-drones-tests.zip.995\\Drones.Domain.Tests\\DroneTests.cs [Lecture seule]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\c3671b0a-95a9-497b-8f33-5c24bd2a5995_candronex-drones-tests.zip.995\\Drones.Domain.Tests\\DroneTests.cs [Lecture seule]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T01:40:19.611Z",
+              "EditorCaption": " [Lecture seule]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DroneUseCaseTests.cs",
+              "DocumentMoniker": "C:\\Users\\mart1\\AppData\\Local\\Temp\\0f88db5a-46ca-4da4-a9de-a9dd2eff75b5_candronex-drones-tests.zip.5b5\\Drones.Application.Tests\\DroneUseCaseTests.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\0f88db5a-46ca-4da4-a9de-a9dd2eff75b5_candronex-drones-tests.zip.5b5\\Drones.Application.Tests\\DroneUseCaseTests.cs",
+              "ToolTip": "C:\\Users\\mart1\\AppData\\Local\\Temp\\0f88db5a-46ca-4da4-a9de-a9dd2eff75b5_candronex-drones-tests.zip.5b5\\Drones.Application.Tests\\DroneUseCaseTests.cs [Lecture seule]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\0f88db5a-46ca-4da4-a9de-a9dd2eff75b5_candronex-drones-tests.zip.5b5\\Drones.Application.Tests\\DroneUseCaseTests.cs [Lecture seule]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T01:38:45.654Z",
+              "EditorCaption": " [Lecture seule]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Drones.Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\mart1\\Documents\\Cours ETS\\Cours ETS\\Session 7\\LOG430\\Projet\\CanDroneX\\Drones.Domain\\Drones.Domain.csproj",
+              "RelativeDocumentMoniker": "Drones.Domain\\Drones.Domain.csproj",
+              "ToolTip": "C:\\Users\\mart1\\Documents\\Cours ETS\\Cours ETS\\Session 7\\LOG430\\Projet\\CanDroneX\\Drones.Domain\\Drones.Domain.csproj",
+              "RelativeToolTip": "Drones.Domain\\Drones.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-22T00:53:54.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "FakeDroneRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mart1\\AppData\\Local\\Temp\\6a40ab35-bb3a-49bc-bdc1-af03b8bddc70_candronex-drones-tests.zip.c70\\Drones.Application.Tests\\FakeDroneRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\6a40ab35-bb3a-49bc-bdc1-af03b8bddc70_candronex-drones-tests.zip.c70\\Drones.Application.Tests\\FakeDroneRepository.cs",
+              "ToolTip": "C:\\Users\\mart1\\AppData\\Local\\Temp\\6a40ab35-bb3a-49bc-bdc1-af03b8bddc70_candronex-drones-tests.zip.c70\\Drones.Application.Tests\\FakeDroneRepository.cs [Lecture seule]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\6a40ab35-bb3a-49bc-bdc1-af03b8bddc70_candronex-drones-tests.zip.c70\\Drones.Application.Tests\\FakeDroneRepository.cs [Lecture seule]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T01:36:44.588Z",
+              "EditorCaption": " [Lecture seule]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Container.targets",
+              "DocumentMoniker": "C:\\Users\\mart1\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.22.1\\build\\Container.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.22.1\\build\\Container.targets",
+              "ToolTip": "C:\\Users\\mart1\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.22.1\\build\\Container.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.22.1\\build\\Container.targets",
+              "ViewState": "AgIAANAAAAAAAAAAAAAtwNkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-09-22T01:27:16.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "DroneDomainException.cs",
+              "DocumentMoniker": "C:\\Users\\mart1\\AppData\\Local\\Temp\\76964976-4336-4a05-8417-892bbfd9e44a_candronex-drones-module.zip.44a\\Drones.Domain\\DroneDomainException.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\76964976-4336-4a05-8417-892bbfd9e44a_candronex-drones-module.zip.44a\\Drones.Domain\\DroneDomainException.cs",
+              "ToolTip": "C:\\Users\\mart1\\AppData\\Local\\Temp\\76964976-4336-4a05-8417-892bbfd9e44a_candronex-drones-module.zip.44a\\Drones.Domain\\DroneDomainException.cs [Lecture seule]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\76964976-4336-4a05-8417-892bbfd9e44a_candronex-drones-module.zip.44a\\Drones.Domain\\DroneDomainException.cs [Lecture seule]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T01:25:24.426Z",
+              "EditorCaption": " [Lecture seule]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "DroneId.cs",
+              "DocumentMoniker": "C:\\Users\\mart1\\AppData\\Local\\Temp\\2896a7fb-1768-4b3f-80c6-15c538b27c29_candronex-drones-module.zip.c29\\Drones.Domain\\DroneId.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\2896a7fb-1768-4b3f-80c6-15c538b27c29_candronex-drones-module.zip.c29\\Drones.Domain\\DroneId.cs",
+              "ToolTip": "C:\\Users\\mart1\\AppData\\Local\\Temp\\2896a7fb-1768-4b3f-80c6-15c538b27c29_candronex-drones-module.zip.c29\\Drones.Domain\\DroneId.cs [Lecture seule]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\2896a7fb-1768-4b3f-80c6-15c538b27c29_candronex-drones-module.zip.c29\\Drones.Domain\\DroneId.cs [Lecture seule]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T01:25:28.952Z",
+              "EditorCaption": " [Lecture seule]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "DroneRepositoryEfCore.cs",
+              "DocumentMoniker": "C:\\Users\\mart1\\AppData\\Local\\Temp\\b51bfe41-9e76-4d22-a5da-7bdd22819bdc_candronex-drones-module.zip.bdc\\Drones.Infrastructure\\DroneRepositoryEfCore.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\b51bfe41-9e76-4d22-a5da-7bdd22819bdc_candronex-drones-module.zip.bdc\\Drones.Infrastructure\\DroneRepositoryEfCore.cs",
+              "ToolTip": "C:\\Users\\mart1\\AppData\\Local\\Temp\\b51bfe41-9e76-4d22-a5da-7bdd22819bdc_candronex-drones-module.zip.bdc\\Drones.Infrastructure\\DroneRepositoryEfCore.cs [Lecture seule]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\b51bfe41-9e76-4d22-a5da-7bdd22819bdc_candronex-drones-module.zip.bdc\\Drones.Infrastructure\\DroneRepositoryEfCore.cs [Lecture seule]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T01:17:51.911Z",
+              "EditorCaption": " [Lecture seule]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DroneController.cs",
+              "DocumentMoniker": "C:\\Users\\mart1\\AppData\\Local\\Temp\\f813ee27-9aa9-4b6a-a71d-1d1901e839ec_candronex-drones-module.zip.9ec\\Drones.Infrastructure\\DroneController.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\f813ee27-9aa9-4b6a-a71d-1d1901e839ec_candronex-drones-module.zip.9ec\\Drones.Infrastructure\\DroneController.cs",
+              "ToolTip": "C:\\Users\\mart1\\AppData\\Local\\Temp\\f813ee27-9aa9-4b6a-a71d-1d1901e839ec_candronex-drones-module.zip.9ec\\Drones.Infrastructure\\DroneController.cs [Lecture seule]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\f813ee27-9aa9-4b6a-a71d-1d1901e839ec_candronex-drones-module.zip.9ec\\Drones.Infrastructure\\DroneController.cs [Lecture seule]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T01:17:53.158Z",
+              "EditorCaption": " [Lecture seule]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "DroneDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\mart1\\AppData\\Local\\Temp\\637998dd-25b0-42d2-badb-8d6efa7b9eb7_candronex-drones-module.zip.eb7\\Drones.Infrastructure\\DroneDbContext.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\637998dd-25b0-42d2-badb-8d6efa7b9eb7_candronex-drones-module.zip.eb7\\Drones.Infrastructure\\DroneDbContext.cs",
+              "ToolTip": "C:\\Users\\mart1\\AppData\\Local\\Temp\\637998dd-25b0-42d2-badb-8d6efa7b9eb7_candronex-drones-module.zip.eb7\\Drones.Infrastructure\\DroneDbContext.cs [Lecture seule]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\637998dd-25b0-42d2-badb-8d6efa7b9eb7_candronex-drones-module.zip.eb7\\Drones.Infrastructure\\DroneDbContext.cs [Lecture seule]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T01:17:50.519Z",
+              "EditorCaption": " [Lecture seule]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "DroneModuleExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\mart1\\AppData\\Local\\Temp\\8028aba8-fd7e-4c33-8df9-53272c73dd4a_candronex-drones-module.zip.d4a\\Drones.Infrastructure\\DroneModuleExtensions.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\8028aba8-fd7e-4c33-8df9-53272c73dd4a_candronex-drones-module.zip.d4a\\Drones.Infrastructure\\DroneModuleExtensions.cs",
+              "ToolTip": "C:\\Users\\mart1\\AppData\\Local\\Temp\\8028aba8-fd7e-4c33-8df9-53272c73dd4a_candronex-drones-module.zip.d4a\\Drones.Infrastructure\\DroneModuleExtensions.cs [Lecture seule]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\8028aba8-fd7e-4c33-8df9-53272c73dd4a_candronex-drones-module.zip.d4a\\Drones.Infrastructure\\DroneModuleExtensions.cs [Lecture seule]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T01:17:11.923Z",
+              "EditorCaption": " [Lecture seule]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Microsoft.NET.TargetFrameworkInference.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.318\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.318\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.318\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.318\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
+              "ViewState": "AgIAAJsAAAAAAAAAAAAtwKoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-09-22T01:08:54.387Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

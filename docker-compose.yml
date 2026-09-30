@@ -1,0 +1,24 @@
+services:
+  candronex.host:
+    image: ${DOCKER_REGISTRY-}candronexhost
+    build:
+      context: .
+      dockerfile: CanDroneX.Host/Dockerfile
+    depends_on:
+      - postgres
+
+  postgres:
+    image: postgres:16-alpine
+    container_name: candronex-postgres
+    environment:
+      POSTGRES_DB: candronex
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./CanDroneX.Host/scripts/init.sql:/docker-entrypoint-initdb.d/01-init.sql:ro
+
+volumes:
+  pgdata:

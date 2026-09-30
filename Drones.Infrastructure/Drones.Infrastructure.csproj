@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+	<PackageReference Include="MediatR" Version="14.2.0" />
+	<PackageReference Include="Microsoft.AspNetCore.Mvc.ApiExplorer" Version="2.3.13" />
+	<PackageReference Include="Microsoft.Extensions.Configuration" Version="10.0.12" />
+	<PackageReference Include="Npgsql" Version="8.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Drones.Api\Drones.Api.csproj" />
+    <ProjectReference Include="..\Drones.Application\Drones.Application.csproj" />
+  </ItemGroup>
+
+</Project>
