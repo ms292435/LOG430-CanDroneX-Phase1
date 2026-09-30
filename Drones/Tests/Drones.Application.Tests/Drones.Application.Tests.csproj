@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
@@ -17,8 +17,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Drones.Application\Drones.Application.csproj" />
-    <ProjectReference Include="..\Drones.Domain\Drones.Domain.csproj" />
+    <ProjectReference Include="..\..\Drones.Application\Drones.Application.csproj" />
+    <ProjectReference Include="..\..\Drones.Domain\Drones.Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>

@@ -1,27 +1,27 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.37710.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drones.Domain", "Drones.Domain\Drones.Domain.csproj", "{89C464BB-4B9F-4810-8F60-78F0EC2FC065}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drones.Domain", "Drones\Drones.Domain\Drones.Domain.csproj", "{89C464BB-4B9F-4810-8F60-78F0EC2FC065}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drones.Application", "Drones.Application\Drones.Application.csproj", "{A098877F-4C82-42A4-8DC4-297C272AE715}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drones.Application", "Drones\Drones.Application\Drones.Application.csproj", "{A098877F-4C82-42A4-8DC4-297C272AE715}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drones.Api", "Drones.Api\Drones.Api.csproj", "{56F629FD-8C48-4FE8-B639-7FB67FA0ED76}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drones.Api", "Drones\Drones.Api\Drones.Api.csproj", "{56F629FD-8C48-4FE8-B639-7FB67FA0ED76}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drones.Infrastructure", "Drones.Infrastructure\Drones.Infrastructure.csproj", "{0BC6F8FD-B6BD-432B-8423-8BDB056CBA1F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drones.Infrastructure", "Drones\Drones.Infrastructure\Drones.Infrastructure.csproj", "{0BC6F8FD-B6BD-432B-8423-8BDB056CBA1F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Drones", "Drones", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CanDroneX.Host", "CanDroneX.Host\CanDroneX.Host.csproj", "{6FC15CA3-EBA1-4BEB-9294-6A6410A81BC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drones.Domain.Tests", "Drones.Domain.Tests\Drones.Domain.Tests.csproj", "{B049E5A6-9B84-4B6E-8398-6CCE46E4B893}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drones.Domain.Tests", "Drones\Tests\Drones.Domain.Tests\Drones.Domain.Tests.csproj", "{B049E5A6-9B84-4B6E-8398-6CCE46E4B893}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drones.Application.Tests", "Drones.Application.Tests\Drones.Application.Tests.csproj", "{0615B748-AA96-4BFF-AC6A-2AE8C6539406}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drones.Application.Tests", "Drones\Tests\Drones.Application.Tests\Drones.Application.Tests.csproj", "{0615B748-AA96-4BFF-AC6A-2AE8C6539406}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{9A8DEA7C-69DD-4D38-90F0-3D94B51B509C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drones.Contracts", "Drones.Contracts\Drones.Contracts.csproj", "{A4C048C0-634E-4194-89B4-AFBA3098C3D6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drones.Contracts", "Drones\Drones.Contracts\Drones.Contracts.csproj", "{A4C048C0-634E-4194-89B4-AFBA3098C3D6}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{81DDED9D-158B-E303-5F62-77A2896D2A5A}"
 EndProject

@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Drones.Domain\Drones.Domain.csproj" />
+    <ProjectReference Include="..\..\Drones.Domain\Drones.Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>
