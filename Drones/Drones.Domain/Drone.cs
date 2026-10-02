@@ -1,4 +1,4 @@
-﻿namespace Drones.Domain;
+namespace Drones.Domain;
 
 public enum StatutDrone
 {
@@ -10,41 +10,71 @@ public enum StatutDrone
 public sealed class Drone
 {
     public DroneId Id { get; private set; }
-    public string Imsi { get; private set; }
+    public string ClientId { get; private set; }
+    public IdentiteReseau IdentiteReseau { get; private set; }
     public string Modele { get; private set; }
     public StatutDrone Statut { get; private set; }
     public DateTime DateEnregistrement { get; private set; }
 
+    // Accesseurs pratiques
+    public string Imsi => IdentiteReseau.Imsi.Valeur;
+    public TypeCarte TypeCarte => IdentiteReseau.TypeCarte;
+
     // Constructeur complet interne
-    private Drone(DroneId id, string imsi, string modele, StatutDrone statut, DateTime dateEnregistrement)
+    private Drone(
+        DroneId id,
+        string clientId,
+        IdentiteReseau identiteReseau,
+        string modele,
+        StatutDrone statut,
+        DateTime dateEnregistrement)
     {
         Id = id;
-        Imsi = imsi;
+        ClientId = clientId;
+        IdentiteReseau = identiteReseau;
         Modele = modele;
         Statut = statut;
         DateEnregistrement = dateEnregistrement;
     }
 
     // Point d'entrée métier pour l'enregistrement (UC-02)
-    public static Drone Enregistrer(string imsi, string modele)
+    public static Drone Enregistrer(string clientId, string imsi, TypeCarte typeCarte, string modele)
     {
-        if (string.IsNullOrWhiteSpace(imsi))
-            throw new DroneDomainException("L'IMSI est obligatoire.");
-
-        var imsiNettoye = imsi.Trim();
-        if (!EstImsiValide(imsiNettoye))
-            throw new DroneDomainException("L'IMSI doit contenir entre 14 et 15 chiffres.");
+        if (string.IsNullOrWhiteSpace(clientId))
+            throw new DroneDomainException("L'identifiant du client est obligatoire.");
 
         if (string.IsNullOrWhiteSpace(modele))
             throw new DroneDomainException("Le modèle du drone est obligatoire.");
 
-        return new Drone(DroneId.Nouveau(), imsiNettoye, modele.Trim(), StatutDrone.Enregistre, DateTime.UtcNow);
+        var identiteReseau = new IdentiteReseau(imsi, typeCarte);
+
+        return new Drone(
+            DroneId.Nouveau(),
+            clientId.Trim(),
+            identiteReseau,
+            modele.Trim(),
+            StatutDrone.Enregistre,
+            DateTime.UtcNow
+        );
     }
 
-    // Reconstitution depuis la base de données par l'infrastructure
-    public static Drone Reconstituer(DroneId id, string imsi, string modele, StatutDrone statut, DateTime dateEnregistrement) =>
-        new(id, imsi, modele, statut, dateEnregistrement);
+    // Reconstitution depuis la persistance (DAO)
+    public static Drone Reconstituer(
+        DroneId id,
+        string clientId,
+        IdentiteReseau identiteReseau,
+        string modele,
+        StatutDrone statut,
+        DateTime dateEnregistrement) =>
+        new(id, clientId, identiteReseau, modele, statut, dateEnregistrement);
 
-    private static bool EstImsiValide(string imsi) =>
-        imsi.Length is >= 14 and <= 15 && imsi.All(char.IsDigit);
+    public static Drone Reconstituer(
+        DroneId id,
+        string clientId,
+        string imsi,
+        TypeCarte typeCarte,
+        string modele,
+        StatutDrone statut,
+        DateTime dateEnregistrement) =>
+        new(id, clientId, new IdentiteReseau(imsi, typeCarte), modele, statut, dateEnregistrement);
 }

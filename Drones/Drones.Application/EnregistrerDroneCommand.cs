@@ -1,3 +1,10 @@
-﻿namespace Drones.Application;
+using Drones.Domain;
 
-public sealed record EnregistrerDroneCommand(string Imsi, string Modele);
+namespace Drones.Application;
+
+public sealed record EnregistrerDroneCommand(
+    string ClientId,
+    string Imsi,
+    TypeCarte TypeCarte,
+    string Modele
+);
