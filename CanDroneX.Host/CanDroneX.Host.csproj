@@ -16,6 +16,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Catalogue\Catalogue.Infrastructure\Catalogue.Infrastructure.csproj" />
+    <ProjectReference Include="..\Commandes\Commandes.Api\Commandes.Api.csproj" />
+    <ProjectReference Include="..\Commandes\Commandes.Infrastructure\Commandes.Infrastructure.csproj" />
     <ProjectReference Include="..\Drones\Drones.Api\Drones.Api.csproj" />
     <ProjectReference Include="..\Drones\Drones.Infrastructure\Drones.Infrastructure.csproj" />
   </ItemGroup>

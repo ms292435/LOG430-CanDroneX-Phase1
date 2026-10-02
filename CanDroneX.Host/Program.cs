@@ -1,5 +1,6 @@
 using System.Diagnostics;
 using Catalogue.Infrastructure;
+using Commandes.Infrastructure;
 using Drones.Infrastructure;
 using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
@@ -8,13 +9,15 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllers()
-    .AddApplicationPart(typeof(Drones.Api.DroneController).Assembly);
+    .AddApplicationPart(typeof(Drones.Api.DroneController).Assembly)
+    .AddApplicationPart(typeof(Commandes.Api.CommandesController).Assembly);
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddDroneModule(builder.Configuration);
 builder.Services.AddCatalogueModule(builder.Configuration);
+builder.Services.AddCommandesModule(builder.Configuration);
 
 var app = builder.Build();
 
