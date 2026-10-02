@@ -1,4 +1,5 @@
 using System.Diagnostics;
+using Catalogue.Infrastructure;
 using Drones.Infrastructure;
 using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
@@ -13,6 +14,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddDroneModule(builder.Configuration);
+builder.Services.AddCatalogueModule(builder.Configuration);
 
 var app = builder.Build();
 
