@@ -1,4 +1,4 @@
-# Consultez https://aka.ms/customizecontainer pour savoir comment personnaliser votre conteneur de débogage et comment Visual Studio utilise ce Dockerfile pour générer vos images afin d’accélérer le débogage.
+# Consultez https://aka.ms/customizecontainer pour savoir comment personnaliser votre conteneur de débogage et comment Visual Studio utilise ce Dockerfile pour générer vos images afin d’accélérer le débogage.
 
 # Cet index est utilisé lors de l’exécution à partir de VS en mode rapide (par défaut pour la configuration de débogage)
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
@@ -13,6 +13,10 @@ FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
 COPY ["CanDroneX.Host/CanDroneX.Host.csproj", "CanDroneX.Host/"]
+COPY ["Catalogue/Catalogue.Infrastructure/Catalogue.Infrastructure.csproj", "Catalogue/Catalogue.Infrastructure/"]
+COPY ["Catalogue/Catalogue.Application/Catalogue.Application.csproj", "Catalogue/Catalogue.Application/"]
+COPY ["Catalogue/Catalogue.Domain/Catalogue.Domain.csproj", "Catalogue/Catalogue.Domain/"]
+COPY ["Catalogue/Catalogue.Contracts/Catalogue.Contracts.csproj", "Catalogue/Catalogue.Contracts/"]
 COPY ["Drones/Drones.Infrastructure/Drones.Infrastructure.csproj", "Drones/Drones.Infrastructure/"]
 COPY ["Drones/Drones.Application/Drones.Application.csproj", "Drones/Drones.Application/"]
 COPY ["Drones/Drones.Domain/Drones.Domain.csproj", "Drones/Drones.Domain/"]
