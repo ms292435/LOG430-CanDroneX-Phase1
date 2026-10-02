@@ -26,6 +26,19 @@ CREATE OR REPLACE VIEW drones.drones AS
 SELECT id, client_id, imsi, type_carte, modele, statut, date_enregistrement 
 FROM drones.drone;
 
+-- Drone de démonstration du cahier des charges DRN-0231 (§1.4, §7.2)
+INSERT INTO drones.drone (id, client_id, imsi, type_carte, modele, statut, date_enregistrement)
+VALUES (
+    '00000000-0000-0000-0000-000000000231',
+    'client-demo',
+    '123456789012345',
+    'SIM',
+    'DJI Matrice 300 (DRN-0231)',
+    'Enregistre',
+    NOW()
+)
+ON CONFLICT (id) DO NOTHING;
+
 -- ============================================================================
 -- Module Catalogue (§8.1) - Données de démonstration Phase 1
 -- ============================================================================
@@ -44,3 +57,34 @@ VALUES
     ('IMAGERIE_EMBB', 'Flux vidéo et imagerie mission', 'eMBB - Haut débit montant, latence moins critique')
 ON CONFLICT (type_service) DO UPDATE 
 SET libelle = EXCLUDED.libelle, profil_reseau = EXCLUDED.profil_reseau;
+
+-- ============================================================================
+-- Module Commandes (§8.1)
+-- ============================================================================
+CREATE SCHEMA IF NOT EXISTS commandes;
+
+-- Table des commandes
+CREATE TABLE IF NOT EXISTS commandes.commande (
+    id UUID PRIMARY KEY,
+    client_id VARCHAR(50) NOT NULL,
+    drone_id UUID NOT NULL,
+    cle_idempotence VARCHAR(100) NOT NULL,
+    empreinte_requete VARCHAR(64) NOT NULL,
+    date_creation TIMESTAMPTZ NOT NULL,
+    CONSTRAINT uq_commande_idempotence UNIQUE (client_id, cle_idempotence)
+);
+
+-- Table des éléments de commande
+CREATE TABLE IF NOT EXISTS commandes.element_commande (
+    id UUID PRIMARY KEY,
+    commande_id UUID NOT NULL REFERENCES commandes.commande(id) ON DELETE CASCADE,
+    type_service VARCHAR(50) NOT NULL,
+    etat VARCHAR(30) NOT NULL,
+    cause_echec TEXT NULL,
+    CONSTRAINT uq_commande_service UNIQUE (commande_id, type_service),
+    CONSTRAINT chk_element_etat CHECK (etat IN ('EN_ATTENTE', 'EN_ACTIVATION', 'ACTIF', 'EN_ECHEC', 'ANNULE', 'COMPENSE'))
+);
+
+CREATE INDEX IF NOT EXISTS idx_commande_client_id ON commandes.commande(client_id);
+CREATE INDEX IF NOT EXISTS idx_commande_drone_id ON commandes.commande(drone_id);
+CREATE INDEX IF NOT EXISTS idx_element_commande_id ON commandes.element_commande(commande_id);
